@@ -1,0 +1,7 @@
+even ve odd even ciftte kullanılır odd tek de kullanılır
+
+
+:nth-child(1n)
+
+
+n koyrsak atlayarak gdiyor

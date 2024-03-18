@@ -387,6 +387,109 @@ a{text-decoration: none;}
     justify-content: space-around;
 }
 
+.footer-2{
+    margin: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-2-products{
+    width: 146px;
+    b{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-bottom: 16px
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-top: 12px;
+    }
+}
+
+.footer-2-Resources{
+    width: 146px;
+    b{
+        display: inline-block;
+        color: #272D37;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-bottom: 16px
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-top: 12px;
+    }
+}
+
+.footer-3{
+    margin: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-3-WhyChooseUs{
+    width: 146px;
+    b{
+        display: inline-block;
+        color: #272D37;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-bottom: 16px
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-top: 12px;
+    }
+}
+
+.footer-3-company{
+    width: 146px;
+    b{
+        display: inline-block;
+        color: #272D37;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-bottom: 16px
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        margin-top: 12px;
+    }
+}
+
+.footer-4{
+    margin: 24px 16px;
+    text-align: center;
+    p{
+        margin-top: 8px;
+    }
+}
+.footer-2-company{display: none;}
+
+.footer-1-aboutUs{
+    display: none;
+}
+
+
 /* TABLET */
 @media (width >= 768px) {
 
@@ -402,6 +505,7 @@ a{text-decoration: none;}
     .body-page-br-tablet{display: block;}
     .body-page-br-deskop{display: none;}
     .body-page-5-br{display: block;}
+    .footer-icons{display: none;}
 
 
 
@@ -467,6 +571,24 @@ a{text-decoration: none;}
 }
 
 
+
+.footer-1-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-1-aboutUs{
+    display: block;
+    width: 167px;
+    b{
+        display: inline-block;
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.10000000149011612px;
+        color: #272D37;
+    }
+}
 
 /* DESKOP */
 @media (width >= 1200px) {
